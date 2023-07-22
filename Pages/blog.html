@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Livraria</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/style.css">
+</head>
+<body>
+	<div class="header">
+	<div class="container">
+		<div class="navbar">
+		<div class="logo">
+			<img src="../images/logo.png" width="175px">
+		</div>
+		<nav>
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="../Pages/product.html">Products</a></li>
+				<li><a href="../Pages/research.html">Research</a></li>
+				<li><a href="../Pages/blog.html">Blog</a></li>
+				<li><a href="../Pages/contactus.html">ContactUs</a></li>
+			</ul>
+		</nav>
+	</div>
+</div>
+</div>
+<div class="row1">
+	<div class="left-coloumn">
+		<div class="card">
+		<h1>Impact Of Technology In Our Day To Day Life</h1>
+		<h5>June 30,2022</h5>
+		<img src="../images/blog2.jpg">
+		<p>	In this era of science and technology , technology has made a huge impact on our daya
+		 	to day life. Like every other thing that exists on this planet has pros/cons , good
+		 	effects and bag effects , so does technology, and depends on how we use technology for
+		 	us and not against us.
+		 <br>
+
+		
+			<br>Technology is a crucial part of any ordinary human beings everyday life , we need technology in almost every aspect of life.it has a very strong effect in our lives.it has positive as well as <span id="dots"=>....</span><span id="more"> negatives. Some of the positives of technology are as follows: our everyday life has become very easy because of technology. Communication has been a lot better and smoother and hypothetically the wolrd has been made a lot smaller with the help of technology. the nres are spred ina much faster rate and the relation amognts the countries remain only because of technology/ education has been made advanced because of technology. Appropriate schooling is being provided, the ofices ad the businesses are being affected the most because technology and in a vry positive way. advertisemnets are made more realistic and more intresting with the help of technology.Medical feild is also being affected very positively as research is being done crures for diseases are being made and all because of technology.<br>
+
+		
+		 	<br>But like any other holy grails technology has its own negatives such as : It affects a human being's psycholigcaly. a person may develop depression and anxiety because of its excessive use of technolohy. It affects a person physially for example excess exposure to screens causes strain in the eyes, bad posture is caused and a person gets very isolated. Kids get easily distracted becuase of technologies, they might not foucs on their studies and may not be able to prioritize the right things. Technology is very easy to get access of it may cause invation in privavcy and may lead to brainwash as weel. the wars are also getting scarier because of the rapidly growing technologies.</span>
+		 </p>
+		<button type="button" id="read" onclick="read()">Read more</button>
+		<span id="span"></span>
+			</div>
+	</div>
+
+<div class="right-column">
+	<div class="card">
+		<h2>Aspects Of Technology</h2>
+		<img src="../images/blog1.jpg">
+		<p>Tech in offices</p>
+		<img src="../images/blog3.jpg">
+		<p>Tech in education</p>
+		<img src="../images/blog5.jpg">
+		<p>Tech in heath/medicine</p>
+		<img src="../images/blog4.png">
+		<p>Tech in advertisement</p>
+		<img src="../images/blog6.jpg">
+	</div>
+
+	</div>
+</div> 
+
+<!--------JavaScript------>
+
+<script type="text/javascript">
+	
+	var i=0;
+	function read(){
+		if (!i) {
+			document.getElementById("more").style.display="inline";
+			document.getElementById("dots").style.display="none";
+			document.getElementById("read").innerHTML="Read less";
+			i=1;
+		}
+		else{
+			document.getElementById("more").style.display="none";
+			document.getElementById("dots").style.display="inline";
+			document.getElementById("read").innerHTML="Read more";
+			i=0;
+
+		}
+		
+	}
+	
+</script>
+</body>
+</html>
+
